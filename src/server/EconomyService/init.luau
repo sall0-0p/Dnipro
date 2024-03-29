@@ -1,6 +1,6 @@
 local EconomyService = {}
 
-EconomyService.DealershipService = require(script.DealershipService1)
+EconomyService.DealershipService = require(script.DealershipService)
 
 function EconomyService:Init()
 
