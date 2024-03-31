@@ -43,6 +43,15 @@ return {
           [3] = {  };
      };
 
+     Rewards = {
+          History = {},
+          Rewarded = {
+               Badges = {},
+               Gamepasses = {},
+               DevProducts = {}
+          }
+     };
+
      Moderation = {
           Muted = 0, -- tick()
           Banned = 0, -- tick()
