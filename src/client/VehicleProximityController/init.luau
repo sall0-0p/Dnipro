@@ -56,16 +56,6 @@ end
 function ProximityController:Init()
 	EnteredVehicleEvent.OnClientEvent:Connect(onVehicleEntered)
 	LeftVehicleEvent.OnClientEvent:Connect(onVehicleLeft)
-	
-	for _, driverSeat in CollectionService:GetTagged("VehicleSeat") do
-		local seatScript = ServerStorage.Insertables.DriverSeatScript:Clone()
-		seatScript = driverSeat
-	end
-	
-	for _, passangerSeat in CollectionService:GetTagged("PassangerSeat") do
-		local seatScript = ServerStorage.Insertables.PassengerSeatScript:Clone()
-		seatScript = passangerSeat
-	end
 end
 
 return ProximityController
