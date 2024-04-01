@@ -30,7 +30,7 @@ end
 
 ----
 
-function BatchController:Start()
+function BatchController:Init()
 	assignDriverScripts()
 	assignPassangerScripts()
 end
